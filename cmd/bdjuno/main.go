@@ -17,7 +17,8 @@ import (
 	"github.com/forbole/bdjuno/v3/modules"
 
 	"github.com/cosmos/cosmos-sdk/simapp"
-	akashapp "github.com/ovrclk/akash/app"
+	oppyapp "gitlab.com/oppy-finance/oppychain/app"
+
 )
 
 func main() {
@@ -57,7 +58,7 @@ func main() {
 func getBasicManagers() []module.BasicManager {
 	return []module.BasicManager{
 		simapp.ModuleBasics,
-		akashapp.ModuleBasics(),
+		oppyapp.ModuleBasics,
 	}
 }
 
