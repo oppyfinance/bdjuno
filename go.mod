@@ -4,12 +4,12 @@ go 1.17
 
 require (
 	github.com/cosmos/cosmos-sdk v0.45.6
-	github.com/forbole/juno/v3 v3.0.0-20220804055619-65c066944cfa // juno branch "v3.3.0-ibcgo-v2.2.0"
+	github.com/forbole/juno/v3 v3.3.0
 	github.com/go-co-op/gocron v1.16.1
 	github.com/gogo/protobuf v1.3.3
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/lib/pq v1.10.6
-	github.com/ovrclk/akash v0.16.3
+	github.com/ovrclk/akash v0.16.4
 	github.com/pelletier/go-toml v1.9.5
 	github.com/prometheus/client_golang v1.12.2
 	github.com/proullon/ramsql v0.0.0-20181213202341-817cee58a244
@@ -17,11 +17,10 @@ require (
 	github.com/spf13/cobra v1.5.0
 	github.com/stretchr/testify v1.8.0
 	github.com/tendermint/tendermint v0.34.19
+	gitlab.com/oppy-finance/oppychain v1.1.4
 	google.golang.org/grpc v1.48.0
 	gopkg.in/yaml.v3 v3.0.1
 )
-
-require gitlab.com/oppy-finance/oppychain v1.1.3
 
 require (
 	filippo.io/edwards25519 v1.0.0-beta.2 // indirect
@@ -51,6 +50,7 @@ require (
 	github.com/cosmos/gorocksdb v1.2.0 // indirect
 	github.com/cosmos/iavl v0.17.3 // indirect
 	github.com/cosmos/ibc-go/v2 v2.2.0 // indirect
+	github.com/cosmos/ibc-go/v3 v3.0.0 // indirect
 	github.com/cosmos/ledger-cosmos-go v0.11.1 // indirect
 	github.com/danieljoos/wincred v1.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
