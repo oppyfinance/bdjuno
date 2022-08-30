@@ -21,7 +21,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1
 )
 
-require gitlab.com/oppy-finance/oppychain v1.1.3
+require gitlab.com/oppy-finance/oppychain v1.1.5
 
 require (
 	filippo.io/edwards25519 v1.0.0-beta.2 // indirect
